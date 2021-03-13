@@ -13,8 +13,8 @@ data_tuple = ()
 
 spanish_english_database = mysql.connector.connect(host="localhost",
                                                    user="root",
-                                                   password="Ritam@2000_",
-                                                   database="spanishenglish"
+                                                   password="",
+                                                   database=""
                                                    )
 
 cursor = spanish_english_database.cursor(buffered=True)
